@@ -89,12 +89,17 @@ module.exports = configure(function (ctx) {
         'QFooter',
         'QTabs',
         'QTab',
-        'QRouteTab'
+        'QRouteTab',
+        'QDialog'
       ],
-      // directives: [],
+      directives: [
+        'ClosePopup'
+      ],
 
       // Quasar plugins
-      plugins: []
+      plugins: [
+        'Dialog'
+      ]
     },
 
     // animations: 'all', // --- includes all animations
